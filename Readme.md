@@ -19,7 +19,11 @@ Send "message" returns "message /from server"
 
 ### Without Docker
 
-#### Start app:
+#### Run app:
+
+$ python3 main.py
+
+#### Alternative run of the app:
 
 $ uvicorn main:app --reload
 
